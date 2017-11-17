@@ -1,0 +1,23 @@
+{
+    "name": "instagram-php-api",
+    "type": "library",
+    "description": "PHP Instagram API for PHP 5.3+",
+    "keywords": ["instagram"],
+    "homepage": "https://github.com/abhinavbhardwaj/instagram-php-sdk",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Abhinav Bhardwaj",
+            "email": "abhinav.bmit@gmail.com", 
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Instagram": "."
+        }
+    }
+}
